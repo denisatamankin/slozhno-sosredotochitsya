@@ -2,4 +2,112 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 18px;
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  min-height: 668px;
+  position: relative;
+  padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+}
+
+.header__decor-element::before {
+  content: "REC"; 
+  position: absolute;
+  inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  inset-inline-end: clamp(2.375rem, 1.7786rem + 2.5445vw, 3rem);
+  color: var(--color-accent);
+  line-height: 1.38889; 
+}
+
+.header__decor-element::after {
+  content: "";
+  position: absolute;
+  inset-block-start: clamp(1.125rem, 0.5286rem + 2.5445vw, 1.75rem);
+  inset-inline-end: clamp(1.1875rem, 0.5911rem + 2.5445vw, 1.8125rem);
+  display: inline-block;
+  background-color: var(--color-accent);
+  border-radius: 100%;
+  box-shadow: 0 0 4px 2px var(--color-accent);
+  height: 10px;
+  width: 10px;
+}
+
+.decorated-zone::before {  
+  content: "";
+  position: absolute;
+  inset-inline-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  inset-block-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  width: 25px;
+  height: 25px;
+  border-inline-end: 1px solid var(--color-accent);
+  border-block-start: 1px solid var(--color-accent);
+}
+
+.decorated-zone::after {  
+  content: "";
+  position: absolute;
+  inset-inline-start: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  inset-block-end: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  width: 25px;
+  height: 25px;
+  border-inline-start: 1px solid var(--color-accent);
+  border-block-end: 1px solid var(--color-accent);
+}
+
+.header__theme-menu {
+  align-self: center;
+  justify-self: right;
+  display: flex;
+  color: var(--color-accent);
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  line-height: 1;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--color-accent);
+}
+
+.header__title {
+  color: var(--color-logo);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.825;
+  text-shadow: 4px 4px 0 var(--color-accent);
+}
+
+.header__subtitle {
+  justify-self: right; 
+  align-self: center;
+  max-height: 117px;
+}
+
+.title-decor {
+  color: var(--color-main);
+  background-color: var(--color-accent);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
