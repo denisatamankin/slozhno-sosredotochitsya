@@ -4,6 +4,28 @@
   переключая тему
 */
 
+:root.theme-light {
+  --color-logo: #ffc2e6;
+  --color-main: #fff1f7;
+  --color-text-dark: #353430;
+  --color-accent: rgb(255, 141, 203);
+  --color-accent-rgb: 255, 141, 203;
+  --alpha: 0.4;
+  --background-image: url(../images/cover-image-light.png);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-logo: #ffc2e6;
+    --color-main: #fff1f7;
+    --color-text-dark: #353430;
+    --color-accent: rgb(255, 141, 203);
+    --color-accent-rgb: 255, 141, 203;
+    --alpha: 0.4;
+    --background-image: url(../images/cover-image-light.png);
+  }
+}
+
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

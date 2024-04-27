@@ -4,9 +4,26 @@
   переключая тему
 */
 
+:root.theme-dark {
+  --color-logo: #db00ff;
+  --color-main: #000028;
+  --color-text-dark: #F1B2CE;
+  --color-accent: rgb(255, 0, 112);
+  --color-accent-rgb: 255, 0, 112;
+  --alpha: 0.4;
+  --fontSize-logo: 116px;
+  --fontSize-main: 18px;
+  --font: 'IBM Plex Mono', Courier, monospace;
+  --fontWeight-bold: 700;
+  --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --background-image: url(../images/cover-image-dark.png);
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+

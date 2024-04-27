@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />    
     <link rel="apple-touch-icon" href="./images/mobile-icon.png">
@@ -24,7 +26,7 @@
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
-              день
+              День
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -32,14 +34,14 @@
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
-              авто
+              Авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
-              неон
+              Неон
             </button>
           </li>
         </ul>
@@ -54,17 +56,21 @@
     </header>
 
     <main class="main">
-      <section class="main__section why">
+      <section class="main__section main__section-why">
         <h2 class="main__title">
           Почему сосредоточиться так сложно
         </h2>
         <div class="main__content">
           <article class="main__section-content">
-            <h3 class="title-decor">
+            <h3 class="title-decor main__title-decor">
               Многозадачность
             </h3>
             <p class="main__text">
-              Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
+              Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи 
+              <a href="https://dana.org/article/multicosts-of-multitasking/"
+              target="_blank"
+              class="main__text-link">выяснили</a>
+              , что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
             </p>
           </article>
           <article class="main__section-content">
@@ -77,7 +83,7 @@
           </article>
         </div>
       </section>
-      <section class="main__section what">
+      <section class="main__section main__section-what">
         <h2 class="main__title">
           Что снижает концентрацию внимания?
         </h2>
@@ -108,7 +114,7 @@
           </article>
         </div>
       </section>
-      <section class="main__section how">
+      <section class="main__section main__section-how">
         <h2 class="main__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
@@ -137,7 +143,11 @@
               Прогуляйтесь
             </h4>
             <p class="main__text">
-              Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
+              Или даже пробегитесь. Лучше найти парк или лес: один эксперимент 
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+              target="_blank"
+              class="main__text-link">показал</a>
+              , что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
           </article>
           <article class="main__section-content">
@@ -157,12 +167,37 @@
             </p>
           </article>
       </section>
-      <section class="main__section-images">
-        <h2 class="main__title">
+      <section class="main__gallery">
+        <h2 class="title-decor">
           А можно в картинках?
         </h2>
+        <div class="main__gallery-images">
+          <picture class="main__gallery-picture">
+            <img src="./images/sunset.png" alt="Закат" 
+            class="main__gallery-image" loading="lazy">
+          </picture>
+          <picture class="main__gallery-picture">
+            <img src="./images/ice-cream.png" alt="Мороженное" class="main__gallery-image" loading="lazy">
+          </picture>
+          <picture class="main__gallery-picture">
+            <img src="./images/tape.png" alt="Магнитофонная кассета" class="main__gallery-image" loading="lazy">
+          </picture>
+          <picture class="main__gallery-picture">
+            <img src="./images/books.png" alt="Стопка книг" class="main__gallery-image" loading="lazy">
+          </picture>
+          <picture class="main__gallery-picture">
+            <img src="./images/street.png" alt="Улица" 
+            class="main__gallery-image" loading="lazy">
+          </picture>
+        </div>
       </section>
     </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">
+        focus
+      </h2>
+    </footer>
 
     <script src="./scripts/script.js"></script>
   </body>

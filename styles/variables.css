@@ -5,10 +5,15 @@
 :root {
   --color-logo: #db00ff;
   --color-main: #000028;
-  --color-accent: #ff0070;
-  --color-text: #F1B2CE;
+  --color-text-dark: #F1B2CE;
+  --color-accent: rgb(255, 0, 112);
+  --color-accent-rgb: 255, 0, 112;
+  --alpha: 0.4;
   --fontSize-logo: 116px;
   --fontSize-main: 18px;
-  --font: 'IBM Plex Mono', sans-serif;
+  --font: 'IBM Plex Mono', Courier, monospace;
+  --fontWeight-bold: 700;
+  --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  
   
 }
