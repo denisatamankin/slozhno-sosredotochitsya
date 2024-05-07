@@ -5,9 +5,10 @@
 */
 
 :root.theme-dark {
+  --color-background: #000028;
   --color-logo: #db00ff;
   --color-main: #000028;
-  --color-text-dark: #F1B2CE;
+  --color-text: #F1B2CE;
   --color-accent: rgb(255, 0, 112);
   --color-accent-rgb: 255, 0, 112;
   --alpha: 0.4;
