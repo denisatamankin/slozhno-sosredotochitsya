@@ -15,6 +15,6 @@
   --font: 'IBM Plex Mono', Courier, monospace;
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  
+  --background-image: url(../images/cover-image-dark.png);
   
 }

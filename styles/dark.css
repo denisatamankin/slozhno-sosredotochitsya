@@ -18,6 +18,7 @@
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
+  
 }
 
 .page.theme_dark {
@@ -25,6 +26,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
 }
 
 
