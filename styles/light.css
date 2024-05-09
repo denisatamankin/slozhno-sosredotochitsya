@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-light {
+:root.theme_light {
   --color-background: #fff1f7;
   --color-logo: #ffc2e6;
   --color-main: #353430;
@@ -16,12 +16,22 @@
   --background-image: url(../images/cover-image-light.png);
   --display-decor: none;
 }
-
+ 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --color-background: #fff1f7;
+  --color-logo: #ffc2e6;
+  --color-main: #353430;
+  --color-text: #353430;
+  --color-accent-title: rgb(255, 141, 203);
+  --color-accent: rgb( 53, 52, 48);
+  --color-accent-rgb: 53, 52, 48;
+  --alpha: 0.4;
+  --background-image: url(../images/cover-image-light.png);
+  --display-decor: none;
 
 }
 
@@ -50,5 +60,5 @@
 
   .footer__title {
     --color-accent-title: #FF0070;
-}
+  }
 }
