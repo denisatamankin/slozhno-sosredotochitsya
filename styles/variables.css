@@ -7,14 +7,16 @@
   --color-logo: #db00ff;
   --color-main: #000028;
   --color-text: #F1B2CE;
+  --color-accent-title: rgb(255, 0, 112);
   --color-accent: rgb(255, 0, 112);
   --color-accent-rgb: 255, 0, 112;
   --alpha: 0.4;
-  --fontSize-logo: 116px;
+  --fontSize-logo: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --fontSize-main: 18px;
   --font: 'IBM Plex Mono', Courier, monospace;
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
+  --display-decor: inline-block;
   
 }

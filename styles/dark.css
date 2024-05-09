@@ -9,6 +9,7 @@
   --color-logo: #db00ff;
   --color-main: #000028;
   --color-text: #F1B2CE;
+  --color-accent-title: rgb(255, 0, 112);
   --color-accent: rgb(255, 0, 112);
   --color-accent-rgb: 255, 0, 112;
   --alpha: 0.4;
@@ -18,6 +19,7 @@
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
+  --display-decor: inline-block;
   
 }
 
