@@ -13,14 +13,11 @@
   --color-accent: rgb(255, 0, 112);
   --color-accent-rgb: 255, 0, 112;
   --alpha: 0.4;
-  --fontSize-logo: 116px;
-  --fontSize-main: 18px;
   --font: 'IBM Plex Mono', Courier, monospace;
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
-  --display-decor: inline-block;
-  
+  --display-decor: inline-block;  
 }
 
 .page.theme_dark {
@@ -36,14 +33,11 @@
   --color-accent: rgb(255, 0, 112);
   --color-accent-rgb: 255, 0, 112;
   --alpha: 0.4;
-  --fontSize-logo: 116px;
-  --fontSize-main: 18px;
   --font: 'IBM Plex Mono', Courier, monospace;
   --fontWeight-bold: 700;
   --indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --background-image: url(../images/cover-image-dark.png);
   --display-decor: inline-block;
-
 }
 
 

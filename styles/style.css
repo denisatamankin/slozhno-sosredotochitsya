@@ -153,10 +153,19 @@
   font-size: var(--fontSize-main);
 }
 
-.main__content {
-  display: grid;
-  gap: 10px;
+.main__title-decor {
+  margin-block-end: 0px;
 }
+
+.main__subtitle-decor {
+  margin-block: 20px 0px;
+}
+
+.main__section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} 
 
 .title-what {
   margin-block-start: 49px;
@@ -173,10 +182,6 @@
 
 .main__section-how h2 {
   margin-block-start: 50px;
-}
-
-.title-first {
-  margin-block-start: 0px;
 }
 
 .main__text-link {
@@ -209,7 +214,6 @@
   display: flex;
   flex-direction: column;
   gap: var(--indent);
-
 }
 
 .main__gallery-image {

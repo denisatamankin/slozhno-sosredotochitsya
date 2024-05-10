@@ -32,7 +32,6 @@
   --alpha: 0.4;
   --background-image: url(../images/cover-image-light.png);
   --display-decor: none;
-
 }
 
 @media (prefers-color-scheme : light) {
@@ -49,10 +48,9 @@
     --background-image: url(../images/cover-image-light.png);
     --display-decor: none;
   }
-
 }
 
-@media (width>=1024px) and (prefers-color-scheme: light) {
+@media (width>=1024px) {
   
   .header__title {
       --color-accent-title: #FF0070;

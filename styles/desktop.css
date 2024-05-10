@@ -25,6 +25,10 @@
         gap: 20px;
     }
 
+    .subtitle-what {
+        margin-block-start: 10px;
+    }
+
     .main__section-how {
         gap: 10px;
     }
